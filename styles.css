@@ -1,3 +1,5 @@
+
+
 body{
     display: flex;
     justify-content: center;
@@ -6,6 +8,7 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: sans-serif;
 }
 
 section{
@@ -15,7 +18,7 @@ section{
     overflow: hidden;
     width: 400px;
     height: 500px;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .imagen{
@@ -77,9 +80,9 @@ section{
 
 .proced{
     position: relative;
-    width: 70%;
+    width: 80%;
     height: 30px;
-    margin: 110px 0 0 70px;
+    margin: 110px 0 0 47px;
     background-color: rgb(21, 23, 158);
     border-radius: 5px;
     font-weight: bold;
