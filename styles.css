@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+    background-image: url(img/pattern-background-mobile.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section{
+    display: flex;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 400px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagen{
+    position: absolute;
+    background-image: url(img/illustration-hero.svg);
+    width: 400px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    box-sizing: border-box;
+    margin: 150px 0 0 0;
+    width: 100%;
+    height: 350px;
+    background: #fff;
+}
+
+.text{
+    font-size: 0.9rem;
+    margin: 15px 0 0 15px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px 35px 0 35px;
+}
+
+.anual{
+    position: absolute;
+    background: rgb(233, 244, 255) ;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px 0 0 45px;
+    width: 80%;
+    height: 60px;
+}
+
+.left{
+    float: left;
+    padding: 5px;
+}
+
+.rigth{
+    float: right;
+    box-sizing: border-box;
+    width: 43%;
+    padding: 20px 0 0 75px;
+}
+
+.anual h3{
+    margin: 7px 0 0 15px;
+    padding: 0 0 0 49px;
+}
+
+.anual p{
+    margin: 0;
+    padding: 0 0 0 65px;
+}
+
+.proced{
+    position: relative;
+    width: 70%;
+    height: 30px;
+    margin: 110px 0 0 70px;
+    background-color: rgb(21, 23, 158);
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.proced h2{
+    padding: 7px 0 0 0;
+}
+
+.cancel{
+    width: 50%;
+    margin: 20px 0 0 115px;
+    text-align: center;
+}
+
+.proced h2{
+    margin: 0 0 0 15px;
+}
